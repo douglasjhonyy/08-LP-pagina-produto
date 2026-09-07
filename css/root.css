@@ -1,0 +1,24 @@
+:root {
+    --bg: #15141b;
+    --bg-alt: #1c1a24;
+    --surface: #211f2a;
+    --surface-2: #292733;
+    --border: rgba(243, 239, 231, 0.09);
+    --text: #f3efe7;
+    --text-muted: #a79fb3;
+    --accent: #e0962f;
+    --accent-soft: rgba(226, 164, 78, 0.14);
+    --teal: #5c9c93;
+    --max: 1120px;
+    --radius: 14px;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{ 
+    scroll-behavior: smooth; 
+}
