@@ -1,0 +1,121 @@
+.hero {
+    padding: 170px 0 90px;
+    position: relative;
+    overflow: hidden;
+}
+
+.hero .wrap {
+    display: grid;
+    grid-template-columns: 1.10fr 0.90fr;
+    gap: 48px;
+    align-items: center;
+}
+
+.hero h1 {
+    font-size: clamp(2.4rem, 4.4vw, 3.6rem);
+    margin-bottom: 22px;
+}
+
+.hero p.lead {
+    color: var(--text-muted);
+    font-size: 1rem;
+    max-width: 46ch;
+    margin-bottom: 34px;
+}
+
+.hero-ctas {
+    display: flex;
+    gap: 14px;
+    flex-wrap: wrap;
+    margin-bottom: 28px;
+}
+
+.hero-price {
+    display: flex;
+    align-items: baseline;
+    gap: 12px;
+    margin-bottom: 8px;
+}
+
+.hero-price .now {
+    font-size: 1.6rem;
+    font-weight: 800;
+    color: var(--accent);
+    font-family: 'Fraunces', serif;
+}
+
+.hero-price .old {
+    text-decoration: line-through;
+    color: var(--text-muted);
+    font-size: 1rem;
+}
+
+.hero-note {
+    font-size: 0.85rem;
+    color: var(--text-muted);
+}
+
+.hero-visual {
+    position: relative;
+    aspect-ratio: 1/1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.rings {
+    position: absolute;
+    inset: 0;
+    
+}
+
+.rings circle {
+    fill: none;
+    stroke: var(--accent);
+    opacity: 0.16;
+    
+}
+
+.ring-a {
+    animation: pulse 4.5s ease-in-out infinite;
+    
+}
+
+.ring-b {
+    animation: pulse 4.5s ease-in-out infinite 1.1s;
+}
+
+.ring-c {
+    animation: pulse 4.5s ease-in-out infinite 2.2s;
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(0.85);
+        opacity: 0.22;
+    }
+
+    50% {
+        transform: scale(1.05);
+        opacity: 0.05;
+    }
+
+    100% {
+        transform: scale(0.85);
+        opacity: 0.15;
+        
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+
+    .ring-a,
+    .ring-b,
+    .ring-c {
+        animation: none;
+    }
+}
+
+.headphone-icon {
+    position: relative;
+}
