@@ -89,4 +89,5 @@ svg {
     border-color: var(--border);
     color: var(--text);
   }
-  .btn-ghost:hover{ border-color: var(--accent); }
+  .btn-ghost:hover{ 
+    border-color: var(--accent); }
