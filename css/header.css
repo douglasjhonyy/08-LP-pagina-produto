@@ -30,7 +30,7 @@ header .wrap {
     font-weight: 600;
     display: flex;
     align-items: center;
-    gap: 8px;
+    
 }
 
 .logo span {
