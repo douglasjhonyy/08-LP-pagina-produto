@@ -19,9 +19,13 @@
     justify-content: center;
 }
 
-.specs-visual svg {
-    width: 55%;
-    stroke: var(--text-muted);
+.specs-visual:hover{
+     transform: rotate(0.3deg)
+}
+
+.specs-visual {
+    width: 580px;
+    
 }
 
 .spec-list {
