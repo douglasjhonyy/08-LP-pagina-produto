@@ -1,0 +1,31 @@
+@media (max-width: 860px) {
+
+    .hero .wrap,
+    .specs .wrap,
+    .oferta,
+    .features-grid,
+    .testemunha-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .specs {
+        grid-template-columns: 1fr;
+    }
+
+    .specs-visual {
+        width: 445px;
+        height: 445px;
+    }
+
+    .faq-list{
+        min-width: 48px;
+    }
+
+    .faq-a p{
+        display: block;
+    }
+
+    nav{
+        display: none;
+    }
+}

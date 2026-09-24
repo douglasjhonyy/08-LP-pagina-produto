@@ -41,6 +41,5 @@
 }
 
 .faq-a p{
-    padding-bottom: 22px;
-    min-width: 60ch;
+    display: block;
 }
